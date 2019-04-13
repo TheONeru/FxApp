@@ -1,0 +1,79 @@
+ul {
+    list-style: none;
+    padding : 0;
+    text-align: center;
+}
+
+span.instrument{
+    display: inline-block;
+    width : 100px;
+    text-align: center;
+}
+
+span.side{
+    display: inline-block;
+    width : 50px;
+    text-align: center;
+}
+
+span.units{
+    display: inline-block;
+    width : 50px;
+    text-align: center;
+}
+
+span.price{
+    display: inline-block;
+    width : 80px;
+    text-align: center;
+}
+
+span.rate{
+    display: inline-block;
+    width : 80px;
+    text-align: center;
+}
+
+span.PL{
+    text-align: center;
+    display: inline-block;
+    width : 80px;
+}
+
+button.PL {
+    width : 80px;
+}
+
+header.header {
+    text-align: center;
+}
+
+.mainsection{
+    text-align: center;
+}
+
+.side-minus .side{
+    color: red;
+}
+
+.side-plus .side{
+    color: chartreuse;
+}
+
+.trade-minus .PL{
+    color: red;
+}
+
+.trade-plus .PL{
+    color: chartreuse;
+}
+
+@media (max-width: 430px) {
+	span.price{
+        display: none;
+    }
+    
+    span.rate{
+        display: none;
+    }
+}

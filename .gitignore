@@ -1,0 +1,12 @@
+#dependencies
+node_modules
+.vscode
+.eslintrc.json
+
+#production
+dist
+
+#misc
+.DS_Store
+
+.key
